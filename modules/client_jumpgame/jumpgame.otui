@@ -1,0 +1,12 @@
+MainWindow
+  id: jumpgame
+  text: JumpGame
+  size: 300 300
+
+  Button
+    id: jumpButton
+    text: Jump!
+    width: 64
+    anchors.right: parent.right
+    anchors.top: parent.top
+    @onClick: jump()

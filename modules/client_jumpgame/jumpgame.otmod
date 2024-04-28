@@ -1,0 +1,10 @@
+Module
+  name: client_jumpgame
+  description: jumpgame
+  author: aryan
+  website: https://github.com/arianito
+  sandboxed: true
+  scripts: [ jumpgame ]
+  dependencies: [ client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()
